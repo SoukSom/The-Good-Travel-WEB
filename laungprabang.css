@@ -1,0 +1,113 @@
+body{
+    font-family: 'Noto Sans Lao', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    text-align: center;
+}
+
+.nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.container{
+    background: rgb( 255 255 255);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.container a{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    letter-spacing: 1px;
+    margin: 0 10px;
+}
+
+.logo{
+    display: flex;
+}
+
+.logo a{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.menu a:hover{
+    background-color: gray;
+    padding: 10px;
+    margin: 0;
+    border-radius: 10px;
+}
+
+.content{
+    width: 1200px;
+    margin: 100px 0 0;
+    margin: 20 300px;
+    background-color: aliceblue;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content img{
+    max-width: 600px;
+}
+
+.content p{
+    text-align: justify;
+    max-width: 600px;
+}
+
+.content a{
+    color: black;
+    text-decoration: none;
+}
+
+.content a:hover{
+    text-decoration: underline;
+}
+
+footer{
+    background-color: rgb(60, 56, 56);
+    color: white;
+}
+
+footer p{
+    margin: 10px 30px;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+/* History page */
+.content2{
+    max-width: 1200px;
+    margin: 100px 30px;
+    padding: 30px;
+    background-color: white;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+}
+
+.content2 p{
+    margin: 10px;
+    max-width: 950px;
+}
+
+.content2 img{
+    max-width: 960px;
+}

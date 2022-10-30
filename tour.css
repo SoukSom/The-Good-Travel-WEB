@@ -1,0 +1,196 @@
+body{
+    font-family: 'Noto Sans Lao', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(#fffbe7,#e7d5a0,#a69668);
+    text-align: center;
+}
+
+.nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.container{
+    background: rgb( 255 255 255);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.container a{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    letter-spacing: 1px;
+    margin: 0 10px;
+}
+
+.logo{
+    display: flex;
+}
+
+.logo a{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.menu a:hover{
+    background-color: gray;
+    padding: 10px;
+    margin: 0;
+    border-radius: 10px;
+}
+
+.banner{
+    margin: 100px 0 0 0;
+    background-image: url('https://wallpaperaccess.com/full/1638168.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 70px 50px 50px;
+    margin: 0;
+    font-size: 30px;
+    color: #FEB125;
+    text-shadow: 0 0 5px #FD3516;
+}
+
+.content-container{
+    background: linear-gradient(#76860a,#3b400d,#1a1e03);
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+.content-container a{
+    text-align: center;
+    text-decoration: none;
+}
+
+.content-container a:hover{
+    text-decoration: underline;
+}
+
+.grid-container{
+    max-width: 1200px;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+
+button{
+    border: 1px solid gray;
+    background-color: rgb(3, 101, 101);
+    padding: 5px 10px;
+    font-weight: bold;
+    font-family: 'Noto Sans Lao', sans-serif;
+}
+
+button a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+button a:hover{
+    text-decoration: underline;
+}
+
+.grid{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 320px;
+    grid-gap: 20px;
+}
+
+.grid img{
+    height: 150px;
+}
+
+.grid p{
+    max-width: 250px;
+    margin-top: 0;
+    margin-left: 10px;
+}
+
+.grid h3{
+    color: black;
+    margin: 0;
+}
+
+.grid2-container{
+    border-radius: 10px;
+    margin-top: 30px;
+    background-color: aliceblue;
+    max-width: 1200px;
+}
+
+.grid2{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 320px;
+    grid-gap: 20px;
+}
+
+.grid2 img{
+    height: 150px;
+}
+
+.grid2 p{
+    max-width: 250px;
+    margin-top: 0;
+    margin-left: 10px;
+}
+
+.grid2 h3{
+    color: black;
+    margin: 0;
+}
+
+.top10{
+    background-color: aliceblue;
+    max-width: 1200px;
+    margin: 40px 30px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.top10img{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px;
+}
+
+.top10img img{
+    max-width: 600px;
+    width: 410px;
+    height: 200px;
+}
+
+.top10 p{
+    color: black;
+}
+
+footer{
+    background-color: rgb(60, 56, 56);
+    color: white;
+}
+
+footer p{
+    margin: 0 30px;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}

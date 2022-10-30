@@ -1,0 +1,130 @@
+body{
+    font-family: 'Noto Sans Lao', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    text-align: center;
+}
+
+.nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.container{
+    background: rgb( 255 255 255);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.container a{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    letter-spacing: 1px;
+    margin: 0 10px;
+}
+
+.logo{
+    display: flex;
+}
+
+.logo a{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.menu a:hover{
+    background-color: gray;
+    padding: 10px;
+    margin: 0;
+    border-radius: 10px;
+}
+
+.banner{
+    margin: 100px 0 0 0;
+    background-image: url('https://wallpaperaccess.com/full/1638168.jpg');    
+    background-size: cover;
+    background-position: center;
+    padding: 70px 50px 50px;
+    margin: 0;
+    font-size: 30px;
+    color: #FEB125;
+    text-shadow: 0 0 5px #FD3516;
+}
+
+.contant-container{
+    background-color: #B0D6F5;
+    display: inline-flex;
+}
+
+.content-head{
+    text-align: justify;
+    padding: 20px 40px;
+}
+
+.content-head h2{
+    margin: 0;
+}
+
+.content-meaning{
+    margin: 10px;
+    padding: 15px;
+    border-radius: 15px;
+    background-color: rgb(219, 196, 169);
+    display: inline-flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+.content-meaning img{
+    margin: 20px;
+    width: 300px;
+    height: 180px;
+}
+
+.content-meaning h2{
+    margin: -15px 20px;
+    font-size: 20px;
+}
+
+.content-meaning a{
+    text-decoration: none;
+}
+
+.content-meaning a:hover{
+    text-decoration: underline;
+}
+
+.content-meaning p{
+    margin: 20px;
+    width: 300px;
+    
+}
+
+.content{
+    display: inline-flex;
+}
+
+footer{
+    background-color: rgb(60, 56, 56);
+    color: white;
+}
+
+footer p{
+    margin: 0 30px;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}

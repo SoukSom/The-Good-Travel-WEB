@@ -1,0 +1,216 @@
+body{
+    font-family: 'Noto Sans Lao', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    text-align: center;
+}
+
+.nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.container{
+    background: rgb( 255 255 255);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.container a{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    letter-spacing: 1px;
+    margin: 0 10px;
+}
+
+.logo{
+    display: flex;
+}
+
+.logo a{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.menu a:hover{
+    background-color: gray;
+    padding: 10px;
+    margin: 0;
+    border-radius: 10px;
+}
+
+.banner{
+    margin: 100px 0 0 0;
+    background-image: url('https://wallpaperaccess.com/full/1638168.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 70px 50px 50px;
+    margin: 0;
+    font-size: 30px;
+    color: #FEB125;
+    text-shadow: 0 0 5px #FD3516;
+}
+
+section a{
+    text-decoration: none;
+}
+
+section a:hover{
+    text-decoration: underline;
+}
+
+.tour-container{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fffbe7;
+    color: black;
+    border-radius: 10px;
+    margin: 0 0 10px; 
+    padding: 20px;
+}
+
+.head-content{
+    max-width: 960px;
+    text-align: start;
+}
+
+.hot{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c2c1bc;
+    border-radius: 10px;
+    margin: 10px 0; 
+    padding: 20px;
+}
+
+.restua{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c2c1bc;
+    border-radius: 10px;
+    margin: 10px 0; 
+    padding: 20px;
+}
+
+.travel{
+    background-color: #91b247;
+    max-width: 1340px;
+    margin: 10px 30px 30px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.travel a{
+    color: black;
+}
+
+.grid-img{
+    display: grid;
+    grid-template-columns: 320px 320px 320px 320px;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 5px;
+}
+
+.grid-img img{
+    max-width: 320px;
+    width: 320px;
+    height: 150px;
+    margin-left: 12px;
+}
+
+.img1 a{
+    text-decoration: none;
+    max-width: 600px;
+}
+
+.img2{
+    display: inline-flex;
+}
+
+.img2 img{
+    max-width: 630px;
+    height: 420px;
+    margin: 0 15px;
+}
+
+.img2 a{
+    text-decoration: none;   
+}
+
+.img2 p{
+    max-width: 600px;
+    margin-left: 30px;
+}
+
+button{
+    border: 1px solid gray;
+    background-color: rgb(3, 101, 101);
+    padding: 5px 10px;
+    font-weight: bold;
+    font-family: 'Noto Sans Lao', sans-serif;
+}
+
+button a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.top10-container{
+    display: flex;
+}
+
+.top10{
+    background-color: #91b247;
+    max-width: 960px;
+    margin: 10px 30px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+ 
+.top10 p{
+    text-align: center;
+}
+
+.top10img{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px;
+}
+
+.top10img img{
+    max-width: 300px;
+    width: 300px;
+    height: 150px;
+}
+
+.top10 p{
+    color: black;
+}
+
+footer{
+    background-color: rgb(60, 56, 56);
+    color: white;
+}
+
+footer p{
+    margin: 0 30px;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
